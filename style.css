@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap");
+
+body{
+  line-height: 150%;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #cdd6f4;
+  background-color: #1e1e2e;
+}
+
+.fa-brands{
+  font-size: 40px;
+}
+
+ul a {
+  color: #cdd6f4;
+}
+
+a{
+  text-decoration: none;
+  color: #a6e3a1;
+}
+
+a:hover{
+  color: #f38ba8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  button {
+    animation: vibrate 0.3s linear infinite both;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.card-floating{
+  background-color: rgb(156, 160, 176, 0.2);
+  text-align: center;
+  padding: 30 px;
+  margin: 30px, 30px;
+  border-radius: 20px;
+}
+
+.img-circle{
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.list-inline{
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline;
+}
